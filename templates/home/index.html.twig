@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Curso Symfony{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; font: 18px/1.5 sans-serif; background: #FB2B51; }
+    .coloresTitulos { background: #B81230; }
+    .colorValor { background: #1290B8; }
+</style>
+
+<div class="example-wrapper">
+  <table>  
+    <tr>
+      <th class="coloresTitulos" >Titulos en Mayuscula</th>
+    </tr>
+    {% for i in titulos %}
+      <tr>
+        <td class="colors">{{ i|upper }}</td>
+      </tr>   
+     {% endfor %}
+     </table> 
+</div>    
+    {% set valor = 100 %}
+    
+    {% if valor == 100 %}
+    <div class="colorValor" >
+      <h1>El numero es: {{valor}}</h1>
+    </div> 
+    {% endif %}
+  
+
+
+{% endblock %}
