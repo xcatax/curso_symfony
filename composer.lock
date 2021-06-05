@@ -2534,6 +2534,158 @@
             ],
             "time": "2021-03-23T23:28:01+00:00"
         },
+        "autoload": {
+                "psr-4": {
+                    "Lcobucci\\JWT\\": "src"
+                },
+                "files": [
+                    "compat/class-aliases.php",
+                    "compat/json-exception-polyfill.php",
+                    "compat/lcobucci-clock-polyfill.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Luís Otávio Cobucci Oblonczyk",
+                    "email": "lcobucci@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to work with JSON Web Token and JSON Web Signature",
+            "keywords": [
+                "JWS",
+                "jwt"
+            ],
+            "support": {
+                "issues": "https://github.com/lcobucci/jwt/issues",
+                "source": "https://github.com/lcobucci/jwt/tree/3.4.5"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/lcobucci",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/lcobucci",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2021-02-16T09:40:01+00:00"
+        },
+        {
+            "name": "lexik/jwt-authentication-bundle",
+            "version": "v2.11.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lexik/LexikJWTAuthenticationBundle.git",
+                "reference": "f0a91712b4554454e6d28c648567e9381408e2d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lexik/LexikJWTAuthenticationBundle/zipball/f0a91712b4554454e6d28c648567e9381408e2d6",
+                "reference": "f0a91712b4554454e6d28c648567e9381408e2d6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "lcobucci/jwt": "^3.4|^4.0",
+                "namshi/jose": "^7.2",
+                "php": ">=7.1",
+                "symfony/framework-bundle": "^4.4|^5.1",
+                "symfony/security-bundle": "^4.4|^5.1"
+            },
+            "require-dev": {
+                "symfony/browser-kit": "^4.4|^5.1",
+                "symfony/console": "^4.4|^5.1",
+                "symfony/dom-crawler": "^4.4|^5.1",
+                "symfony/phpunit-bridge": "^4.4|^5.1",
+                "symfony/var-dumper": "^4.4|^5.1",
+                "symfony/yaml": "^4.4|^5.1"
+            },
+            "suggest": {
+                "gesdinet/jwt-refresh-token-bundle": "Implements a refresh token system over Json Web Tokens in Symfony",
+                "spomky-labs/lexik-jose-bridge": "Provides a JWT Token encoder with encryption support"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lexik\\Bundle\\JWTAuthenticationBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Barthe",
+                    "email": "j.barthe@lexik.fr",
+                    "homepage": "https://github.com/jeremyb"
+                },
+                {
+                    "name": "Nicolas Cabot",
+                    "email": "n.cabot@lexik.fr",
+                    "homepage": "https://github.com/slashfan"
+                },
+                {
+                    "name": "Cedric Girard",
+                    "email": "c.girard@lexik.fr",
+                    "homepage": "https://github.com/cedric-g"
+                },
+                {
+                    "name": "Dev Lexik",
+                    "email": "dev@lexik.fr",
+                    "homepage": "https://github.com/lexik"
+                },
+                {
+                    "name": "Robin Chalas",
+                    "email": "robin.chalas@gmail.com",
+                    "homepage": "https://github.com/chalasr"
+                },
+                {
+                    "name": "Lexik Community",
+                    "homepage": "https://github.com/lexik/LexikJWTAuthenticationBundle/graphs/contributors"
+                }
+            ],
+            "description": "This bundle provides JWT authentication for your Symfony REST API",
+            "homepage": "https://github.com/lexik/LexikJWTAuthenticationBundle",
+            "keywords": [
+                "Authentication",
+                "JWS",
+                "api",
+                "bundle",
+                "jwt",
+                "rest",
+                "symfony"
+            ],
+            "support": {
+                "issues": "https://github.com/lexik/LexikJWTAuthenticationBundle/issues",
+                "source": "https://github.com/lexik/LexikJWTAuthenticationBundle/tree/v2.11.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/chalasr",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/lexik/jwt-authentication-bundle",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-02-17T22:02:40+00:00"
+        },
         {
             "name": "symfony/config",
             "version": "v4.4.20",
@@ -2610,6 +2762,158 @@
             ],
             "time": "2021-02-22T15:36:50+00:00"
         },
+        "autoload": {
+            "psr-4": {
+                "Lcobucci\\JWT\\": "src"
+            },
+            "files": [
+                "compat/class-aliases.php",
+                "compat/json-exception-polyfill.php",
+                "compat/lcobucci-clock-polyfill.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Luís Otávio Cobucci Oblonczyk",
+                "email": "lcobucci@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A simple library to work with JSON Web Token and JSON Web Signature",
+        "keywords": [
+            "JWS",
+            "jwt"
+        ],
+        "support": {
+            "issues": "https://github.com/lcobucci/jwt/issues",
+            "source": "https://github.com/lcobucci/jwt/tree/3.4.5"
+        },
+        "funding": [
+            {
+                "url": "https://github.com/lcobucci",
+                "type": "github"
+            },
+            {
+                "url": "https://www.patreon.com/lcobucci",
+                "type": "patreon"
+            }
+        ],
+        "time": "2021-02-16T09:40:01+00:00"
+    },
+    {
+        "name": "lexik/jwt-authentication-bundle",
+        "version": "v2.11.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lexik/LexikJWTAuthenticationBundle.git",
+            "reference": "f0a91712b4554454e6d28c648567e9381408e2d6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lexik/LexikJWTAuthenticationBundle/zipball/f0a91712b4554454e6d28c648567e9381408e2d6",
+            "reference": "f0a91712b4554454e6d28c648567e9381408e2d6",
+            "shasum": ""
+        },
+        "require": {
+            "ext-openssl": "*",
+            "lcobucci/jwt": "^3.4|^4.0",
+            "namshi/jose": "^7.2",
+            "php": ">=7.1",
+            "symfony/framework-bundle": "^4.4|^5.1",
+            "symfony/security-bundle": "^4.4|^5.1"
+        },
+        "require-dev": {
+            "symfony/browser-kit": "^4.4|^5.1",
+            "symfony/console": "^4.4|^5.1",
+            "symfony/dom-crawler": "^4.4|^5.1",
+            "symfony/phpunit-bridge": "^4.4|^5.1",
+            "symfony/var-dumper": "^4.4|^5.1",
+            "symfony/yaml": "^4.4|^5.1"
+        },
+        "suggest": {
+            "gesdinet/jwt-refresh-token-bundle": "Implements a refresh token system over Json Web Tokens in Symfony",
+            "spomky-labs/lexik-jose-bridge": "Provides a JWT Token encoder with encryption support"
+        },
+        "type": "symfony-bundle",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.x-dev"
+            }
+        },
+        "autoload": {
+            "psr-4": {
+                "Lexik\\Bundle\\JWTAuthenticationBundle\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jeremy Barthe",
+                "email": "j.barthe@lexik.fr",
+                "homepage": "https://github.com/jeremyb"
+            },
+            {
+                "name": "Nicolas Cabot",
+                "email": "n.cabot@lexik.fr",
+                "homepage": "https://github.com/slashfan"
+            },
+            {
+                "name": "Cedric Girard",
+                "email": "c.girard@lexik.fr",
+                "homepage": "https://github.com/cedric-g"
+            },
+            {
+                "name": "Dev Lexik",
+                "email": "dev@lexik.fr",
+                "homepage": "https://github.com/lexik"
+            },
+            {
+                "name": "Robin Chalas",
+                "email": "robin.chalas@gmail.com",
+                "homepage": "https://github.com/chalasr"
+            },
+            {
+                "name": "Lexik Community",
+                "homepage": "https://github.com/lexik/LexikJWTAuthenticationBundle/graphs/contributors"
+            }
+        ],
+        "description": "This bundle provides JWT authentication for your Symfony REST API",
+        "homepage": "https://github.com/lexik/LexikJWTAuthenticationBundle",
+        "keywords": [
+            "Authentication",
+            "JWS",
+            "api",
+            "bundle",
+            "jwt",
+            "rest",
+            "symfony"
+        ],
+        "support": {
+            "issues": "https://github.com/lexik/LexikJWTAuthenticationBundle/issues",
+            "source": "https://github.com/lexik/LexikJWTAuthenticationBundle/tree/v2.11.2"
+        },
+        "funding": [
+            {
+                "url": "https://github.com/chalasr",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/lexik/jwt-authentication-bundle",
+                "type": "tidelift"
+            }
+        ],
+        "time": "2021-02-17T22:02:40+00:00"
+    },
         {
             "name": "symfony/console",
             "version": "v4.4.21",
